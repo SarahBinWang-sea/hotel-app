@@ -1,7 +1,7 @@
 var mysql = require('mysql');
 
 
-var rdsUrl = process.env.DB_URL;
+var rdsUrl = 'hotel-app-database-instance-1.c7wag26ca0nr.us-west-2.rds.amazonaws.com';
 var password =  '12345678';
 var user = 'admin';
 
